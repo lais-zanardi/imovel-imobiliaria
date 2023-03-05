@@ -10,8 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ada</groupId>
-    <artifactId>imoveis</artifactId>
+    <artifactId>imovel</artifactId>
     <version>1.0- SNAPSHOT</version>
+    <description>Serviço de imóveis</description>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

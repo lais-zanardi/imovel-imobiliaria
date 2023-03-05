@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 @Data
 public class Imovel {
     @Id
-    private Long id;
+    private String id;
     private String comodos;
     private String localizacao;
     private String tipoImovel;
