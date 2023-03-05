@@ -1,3 +1,5 @@
+package ada.services;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.repository.CrudRepository;
@@ -11,7 +13,7 @@ import java.util.UUID;
 public class CriarImovelService {
     private final CrudRepository<Imovel, String> repository;
 
-    public Imovel criarImovel(Imovel entity) {
+    public Imovel salvar(Imovel entity) {
         entity.setId(UUID.randomUUID().toString());
         log.info("Imóvel ID {}", entity.getId());
 
