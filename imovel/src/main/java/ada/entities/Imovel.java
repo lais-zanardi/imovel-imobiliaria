@@ -1,3 +1,5 @@
+package ada.entities;
+
 import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.Id;

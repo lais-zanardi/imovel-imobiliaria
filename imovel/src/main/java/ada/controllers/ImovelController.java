@@ -1,3 +1,7 @@
+package ada.controllers;
+
+import ada.entities.Imovel;
+import ada.services.CriarImovelService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,6 +25,6 @@ public class ImovelController {
 
     @PostMapping("/{id}")
     public void salvarImovel(@RequestBody Imovel imovel) {
-        service.salvarImovel(imovel);
+        service.salvar(imovel);
     }
 }

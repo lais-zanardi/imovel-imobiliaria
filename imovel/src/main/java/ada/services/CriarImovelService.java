@@ -1,6 +1,6 @@
 package ada.services;
 
-import ada.entity.Imovel;
+import ada.entities.Imovel;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.repository.CrudRepository;
