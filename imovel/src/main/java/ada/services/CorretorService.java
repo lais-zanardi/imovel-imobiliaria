@@ -28,7 +28,8 @@ public class CorretorService {
         return repository.findById(corretor.getId());
     }
 
-    public void deleteById(Corretor corretor) {
+    public Optional<Corretor> deleteById(Corretor corretor) {
         repository.deleteById(corretor.getId());
+        return null;
     }
 }
