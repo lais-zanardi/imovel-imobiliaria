@@ -18,9 +18,7 @@ public class CorretorService {
 
     public Corretor atualizarCorretor(Corretor entity) {
         Corretor atualizaCorretor = new Corretor();
-        atualizaCorretor.setId(entity.getId());
-        atualizaCorretor.setNome(entity.getNome());
-        atualizaCorretor.setTaxaComissao(entity.getTaxaComissao());
+        atualizaCorretor.setComissao(entity.getComissao());
         return atualizaCorretor;
     }
 
